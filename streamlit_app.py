@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-movies_file_path = 'D:/CSV/Movies.csv'
-posters_file_path = 'D:/CSV/PosterPath.csv'
+movies_file_path = 'Movies.csv'
+posters_file_path = 'PosterPath.csv'
 
 
 df1 = pd.read_csv(movies_file_path)
